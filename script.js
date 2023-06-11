@@ -18,6 +18,7 @@ for (let i = 0; i < list_items.length; i++) {
 		setTimeout(function () {
 			draggedItem.style.display = 'block';
 			draggedItem = null;
+			window.alert("drop successfully");
 		}, 0);
 	})
 
